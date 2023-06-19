@@ -49,7 +49,7 @@ const CountryDetails = ({ countries }) => {
                     {country.borders.map((border) => {
                       return (
                         <li key={border}>
-                          <Link to={`/country/${border}`}>
+                          <Link to={`/countries/${border}`}>
                             {getName(border)}
                           </Link>
                         </li>
